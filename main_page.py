@@ -1,30 +1,11 @@
 import pandas as pd
-import pandas_profiling
 import streamlit as st
 import streamlit.components.v1 as components
-import pickle
-import xgboost as xgb
-import lightgbm as lgbm
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
-from sklearn.metrics import plot_confusion_matrix
-from sklearn.metrics import confusion_matrix, roc_auc_score, roc_curve, classification_report, precision_recall_curve
-from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold, GridSearchCV, RandomizedSearchCV
-import matplotlib.pyplot as plt
 from streamlit_pandas_profiling import st_profile_report
 from matplotlib import pyplot
 import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
-from PIL import Image
-import requests
-from io import BytesIO
-import os
-import glob
-from matplotlib import pyplot
 import seaborn as sns
-from collections import Counter
 from numpy import where
 
 import matplotlib
@@ -32,7 +13,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import datetime as dt
 from datetime import timedelta
 from streamlit_player import st_player
