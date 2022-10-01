@@ -1,14 +1,7 @@
 import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
-from matplotlib import pyplot
-import seaborn as sns
-from sklearn.preprocessing import LabelEncoder
-import seaborn as sns
-from numpy import where
 
-import matplotlib
-import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
