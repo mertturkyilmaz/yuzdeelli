@@ -26,8 +26,7 @@ from matplotlib import pyplot
 import seaborn as sns
 from collections import Counter
 from numpy import where
-#from imblearn.over_sampling import SMOTE
-import pandas_profiling 
+
 import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
