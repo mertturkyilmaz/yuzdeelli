@@ -6,7 +6,6 @@ import streamlit.components.v1 as components
 import numpy as np
 import datetime as dt
 from datetime import timedelta
-from streamlit_player import st_player
 import streamlit.components.v1 as components
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
